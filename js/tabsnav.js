@@ -440,6 +440,7 @@
 					if( idx === self.current ) {
 						tVal = -1 * self.dim.position;
 						sVal = self.dim.win/self.dim.measure;
+						console.log(sVal);
 					}
 					else {
 						tVal = idx > self.current ? self.dim.win - (self.dim.position + self.dim.measure) : -1 * self.dim.position;
